@@ -49,6 +49,6 @@ INNER JOIN
 WHERE 
     demand_count > 10
 ORDER BY    
-    avg_salary DESC,
-    demand_count DESC 
+    demand_count DESC,
+    avg_salary DESC 
 LIMIT 25
